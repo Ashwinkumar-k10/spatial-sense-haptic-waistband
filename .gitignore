@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.pyd
+*.py
+
+# Scripts directory
+/scripts/
 
 # Temporary & intermediate folders
 /new/
@@ -20,9 +24,6 @@ draft*.pptx
 /theme2_pages/
 /theme7_slides/
 /rendered_slides/
-
-# Loose root scripts (maintained cleanly in scripts/)
-/*.py
 
 # Raw text dumps
 *.txt

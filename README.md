@@ -94,12 +94,6 @@ SPATIAL-SENSE/
 │   │   ├── System_Architecture.md          # Comprehensive hardware/firmware specification
 │   │   └── FMEA_Analysis.md                # Failure Mode and Effects Analysis
 │   └── README.md
-├── scripts/                                # Automation scripts for deck & graphic generation
-│   ├── generate_deck.py                    # Master presentation generation script
-│   ├── generate_diagrams.py                # Schematic & ray-trace vector graphic generator
-│   ├── generate_architecture_diagram.py    # System architecture vector generator
-│   ├── generate_cad_models.py              # Parametric 3D STL/OBJ model generator
-│   └── export_and_render.py                # PowerPoint COM rendering & PDF exporter
 ├── .gitignore
 ├── LICENSE                                 # MIT License
 └── README.md                               # Project documentation master
