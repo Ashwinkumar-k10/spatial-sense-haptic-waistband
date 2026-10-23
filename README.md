@@ -243,6 +243,9 @@ spatial-sense-haptic-waistband/
 │   └── specs/
 │       ├── FMEA_Analysis.md                     # Failure Mode and Effects Analysis
 │       └── System_Architecture.md               # Detailed system bus & pinout specifications
+├── pcb/                                         # KiCad PCB design, schematics & validation
+│   ├── Component_and_Architecture_Validation_Report.md # Stage A & B engineering validation
+│   └── README.md                                # PCB architecture, stackup & design workflow
 ├── .gitignore                                   # Clean exclusion configuration
 ├── LICENSE                                      # MIT License
 └── README.md                                    # Master industrial documentation

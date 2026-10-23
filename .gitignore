@@ -12,6 +12,7 @@ __pycache__/
 /assets/
 /docs/reference/
 /docs/presentation/
+/screenshot/
 *.pptx
 *.pdf
 
