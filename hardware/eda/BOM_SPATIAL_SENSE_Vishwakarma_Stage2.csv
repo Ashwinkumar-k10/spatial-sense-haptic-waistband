@@ -1,0 +1,14 @@
+Subsystem,Component Name,Part Designation,Manufacturer,Prototype Qty,Unit Cost (INR),Total Prototype Cost (INR),Volume Cost (1000+ units INR),Primary Function
+Core Processing & Power,Microcontroller SoC,ESP32-S3-WROOM-1-N16R8,Espressif Systems,1,₹450,₹450,₹240,Dual-core 240MHz DSP for non-blocking sensor scheduling and haptic cadence mapping
+Core Processing & Power,Lithium-Ion Battery,3.7V 2500mAh 1S Li-ion Cell,EVE Energy,1,₹550,₹550,₹310,Portable rechargeable power supply compliant with IEC 62133 secondary cell standards
+Core Processing & Power,Hardware BMS Circuit,1S 2A Protection PCB (OVP/UVP/OCP),Seiko Instruments,1,₹180,₹180,₹65,Hardware battery protection: 4.25V OVP cutoff 2.80V UVP cutoff 2.0A OCP limit
+Core Processing & Power,Buck-Boost Regulator & Charger,3.3V Ultra-Low-Noise DC-DC + TP4056 USB-C,Texas Instruments,1,₹270,₹270,₹115,Regulated 3.3V rail with low ripple (<15mV) and 5V USB-C charging interface
+Optical Sensing Array,ToF Distance Micro-LiDAR,ST VL53L1X Time-of-Flight Ranging Sensor,STMicroelectronics,8,₹380,₹3040,₹1450,Dual-elevation distance ranging (4x 0° waist level + 4x +25° head level) 940nm Class-1 eye-safe
+Optical Sensing Array,Protective Optical Filters,940nm IR Bandpass Windows (27° FoV),Edmund Optics,8,₹20,₹160,₹40,Optical protection against dust deposition ambient solar glare and environmental abrasion
+Multiplexed Haptic Drivers,I2C Bus Multiplexer,TCA9548A 8-Channel Low-Voltage Switch,Texas Instruments,1,₹260,₹260,₹110,Eliminates I2C address conflicts and manages deterministic 4ms interleaved firing sequence
+Multiplexed Haptic Drivers,Haptic Motor Driver ICs,TI DRV2605L Low-Voltage Actuator Driver,Texas Instruments,8,₹230,₹1840,₹720,Hardware auto-resonance tracking (205Hz) and 150mA hardware current limit
+Resonant Actuators,Linear Resonant Actuators,Precision 205Hz Coin LRA Motors,Vybronics / KEMET,8,₹156,₹1250,₹420,Localized vibrotactile pressure gradients on abdominal wall (up to 2.2G peak acceleration)
+Harness & Enclosure,Modular Sensor Pods,Injection-Molded TPU 95A Enclosure Shells,Custom Tooling,8,₹65,₹520,₹80,Skin-contact isolation (<34.5°C target) and IP54 dust/water splash protection
+Harness & Enclosure,Flexible Printed Circuit,2-Layer Polyimide FPC Ribbon Cable Harness,PCBWay,1,₹480,₹480,₹70,Internal signal and power routing eliminating discrete wires and snag hazards
+Harness & Enclosure,Wearable Belt & Clasp,Breathable Contoured Neoprene Belt + Magnetic Clasp,Custom Fabrication,1,₹500,₹500,₹30,Ergonomic waist fit (26 to 44 inches) keeping total wearable weight under 320 grams
+,,,,,TOTAL PROTOTYPE BOM,₹9500,₹3650,Target Retail Price: ₹4500 (subsidized via ADIP/ALIMCO welfare schemes)
