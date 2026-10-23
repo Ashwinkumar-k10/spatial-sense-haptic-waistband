@@ -85,16 +85,17 @@ SPATIAL-SENSE/
 │   │   └── power_manager.cpp               # 15uA light sleep & 5ms wake implementation
 │   ├── platformio.ini                      # PlatformIO build configuration
 │   └── README.md                           # Build, flash & test instructions
-├── docs/                                   # Stage 2 presentation deck & technical specifications
-│   ├── presentation/
-│   │   ├── SPATIAL_SENSE_Theme2_Vishwakarma_2026_27.pptx # Editable 14-slide presentation
-│   │   ├── SPATIAL_SENSE_Theme2_Presentation.pdf          # High-resolution PDF export
-│   │   └── slides/                         # 14 rendered slide PNG images (1920x1080)
+├── docs/                                   # Comprehensive engineering & clinical documentation
+│   ├── Project_Proposal_Theme2.md          # Problem definition, clinical context & solution
+│   ├── User_Manual_and_Accessibility_Guide.md # Non-visual user manual & O&M trainer guide
+│   ├── Hardware_Design_and_Assembly_Manual.md # Enclosures, FPC harness & assembly steps
+│   ├── Firmware_and_DSP_Algorithms.md      # FreeRTOS scheduler, median filter & cadence math
+│   ├── Testing_and_Validation_Protocol.md  # IEC compliance, optical crosstalk & field trials
 │   ├── specs/
-│   │   ├── System_Architecture.md          # Comprehensive hardware/firmware specification
+│   │   ├── System_Architecture.md          # Hardware/firmware system specifications
 │   │   └── FMEA_Analysis.md                # Failure Mode and Effects Analysis
-│   └── README.md
-├── .gitignore
+│   └── README.md                           # Documentation master index
+├── .gitignore                              # Git exclusion rules
 ├── LICENSE                                 # MIT License
 └── README.md                               # Project documentation master
 ```
@@ -137,12 +138,16 @@ SPATIAL-SENSE/
 
 ---
 
-## Presentation Deck
+## Technical Documentation Suite
 
-The official 14-slide Stage 2 competition submission deck matching the visual design language of Theme 7 is located at:
-- PowerPoint: [`docs/presentation/SPATIAL_SENSE_Theme2_Vishwakarma_2026_27.pptx`](docs/presentation/SPATIAL_SENSE_Theme2_Vishwakarma_2026_27.pptx)
-- PDF Export: [`docs/presentation/SPATIAL_SENSE_Theme2_Presentation.pdf`](docs/presentation/SPATIAL_SENSE_Theme2_Presentation.pdf)
-- Slide Previews: [`docs/presentation/slides/`](docs/presentation/slides/)
+The complete technical manuals, engineering specifications, and accessibility guides are located in the [`docs/`](docs/) directory:
+- [Project Proposal & Problem Analysis](docs/Project_Proposal_Theme2.md)
+- [User Manual & Accessibility Protocol](docs/User_Manual_and_Accessibility_Guide.md)
+- [Hardware Design & Assembly Manual](docs/Hardware_Design_and_Assembly_Manual.md)
+- [Firmware Architecture & DSP Algorithms](docs/Firmware_and_DSP_Algorithms.md)
+- [Testing & Clinical Validation Protocol](docs/Testing_and_Validation_Protocol.md)
+- [System Architecture Specification](docs/specs/System_Architecture.md)
+- [Failure Mode and Effects Analysis (FMEA)](docs/specs/FMEA_Analysis.md)
 
 ---
 

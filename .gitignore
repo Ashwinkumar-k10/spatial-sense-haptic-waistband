@@ -8,6 +8,13 @@ __pycache__/
 # Scripts directory
 /scripts/
 
+# Presentations and assets removed from repository
+/assets/
+/docs/reference/
+/docs/presentation/
+*.pptx
+*.pdf
+
 # Temporary & intermediate folders
 /new/
 /new/**
